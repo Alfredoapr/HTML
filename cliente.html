@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpacakeShop</title>
+    <!--<link rel="stylesheet" href="estilos.css">-->
+</head>
+<body>
+    <h1>Spacake Shop</h1><br>
+    <h2>Sabores de otro mundo</h2> <br><br>
+    <table>
+        <tr>
+            <th>Sabores de pasteles</th>
+            <th>Adornos para pastel</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Chocolate  $550.00</li>
+                    <li>Limón      $580.00</li>
+                    <li>Vainilla   $500.00</li>
+                    <li>Queso      $620.00</li>
+                    <li>Naranja    $500.00</li>    
+                    <li>Zanahoria  $500.00</li>
+                    <li>Fresa      $600.00</li>
+                <ul>
+            </td>        
+            <td>
+                <ul>
+                    <li>Vela   $90.00</li>
+                    <li>Chispas de colores  $85.00</li>
+                    <li>Fruta   $70.00</li>
+                    <li>Figuras hechas con chocolate $120.00</li>
+                    <li>Crema batida    $80.00</li>
+                    
+                <ul>
+            </td>        
+        </tr>
+    </table>
+    <h3>*El costo de la combinación de 2 sabores consta de la suma de la mitad del costo de cada uno de los sabores de los pasteles</h3>
+        <label for=""></label>
+
+        <h2>Selecciona tus sabores para tu spacake</h2>
+    <form action="/accion2.js" id="formulario2" method="formulario2">
+        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+            <label for="Chocolate">Chocolate</label>
+        <input type="checkbox" id="Vainilla name="Vainilla" value="Vainilla">
+            <label for="Vainilla">Vainilla</label>           
+        <input type="checkbox" id="Limon" name="Limon" value="Limon">
+            <label for="Limón">Limón</label>
+        <input type="checkbox" id="Queso" name="Queso" value="Queso">
+            <label for="Queso">Queso</label>
+        <input type="checkbox" id="Naranja" name="Naranja" value="Naranja">
+            <label for="Naranja">Naranja</label>
+        <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+            <label for="Fresa">Fresa</label>
+        <input type="checkbox" id="Zanahoria" name="Zanahoria" value="Zanahoria">
+            <label for="Zanahoria">Zanahoria</label>
+        
+        <h2>Selecciona tus adornos para que tu spacake sea más espacial</h2>    
+        <input type="checkbox" id="Vela" name="Vela" value="Vela">
+            <label for="Vela">Vela</label>
+        <input type="checkbox" id="Chispas" name="Chispas" value="Chispas">
+            <label for="Chispas">Chispas</label>
+        <input type="checkbox" id="Fruta" name="Fruta" value="Fruta">
+            <label for="Fruta">Fruta</label>
+        <input type="checkbox" id="Figuras" name="Figuras" value="Figuras">
+            <label for="Figuras">Figuras</label>
+        <input type="checkbox" id="Crema" name="Crema" value="Crema">
+            <label for="Crema">Crema</label>
+        
+        <h2>Ahora ingresa tus datos para que hagamos llegar tu pedido</h2>
+        <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre completo ">
+        <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono">
+        <label for="correo">Correo electronico:</label>
+            <input type="email" name="" id="correo" placeholder="spacake">    <br><br>
+        <textarea name="descripcion" id="descripcion" cols="50" rows="10" placeholder="Describenos cómo quieres tu pastel"></textarea><br><br>
+        <input type="reset" name="reset" id="reset">
+        <input type="submit" name="submit" id="submit">
+    </form>
+
+    <table>
+        <tr>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Calle San Lorenz #34, Colonia Robles, Delegación Miguel Hidalgo, Ciudad de México</td>
+            <td><p>5578963512</p><br><p>5582714749</p></td> 
+            <td><p>Lunes a Viernes </p> <br> <p>10:00 a.m - 8:00 p.m</p><br><p>Sabado y Domingo</p><p>11:00 a.m - 9:00 p.m</p></td>
+        </tr>
+    </table>
+
+</body>
